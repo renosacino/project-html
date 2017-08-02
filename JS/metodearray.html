@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title> Metode Array </title>
+		<style>
+			#wrap{
+				background: Black;
+				color : white;
+				font-size: 25px;
+				}
+		</style>
+	</head>
+		<body>
+			<div id="wrap" > </div>
+			
+			<script>
+				//sort() : mengurutkan berdasarkan abjad
+				//reverse() : kebalikan dari sort
+				//concat() : menggabungkan 2 array lenght, join("seperator")
+				//lenght : Mengitung total isi array
+				//join() : seperator
+				var kotak = ["Reno", "Fiona", "Andi"]; // bisa tipe data string / int
+				var kotak2 = ["Peter", "john", "Kintan"];
+				var kotakGabungan = kotak.concat( kotak2);
+				//document.getElementById("wrap").innerHTML = kotakGabungan.sort();
+				document.getElementById("wrap").innerHTML = kotakGabungan.join("|");
+			</script>
+		</body>
+</html>
+		

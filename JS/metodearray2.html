@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> Metode Array </title>
+		<style>
+			#wrap{
+				background: Black;
+				color : white;
+				font-size: 25px;
+				}
+		</style>
+	</head>
+		<body>
+			<div id="wrap" > </div>
+			
+			<script>
+				//splice-->add(mulai, posisi dihapus dari mulai, isi)
+				//splice-->remove
+				//pop menghapus bagian terakhir
+				//push menambah element baru bagian akhir
+				//shift menghapus bagian awal
+				//unshift menambah bagian baru di awal
+				var kotak = ["Reno", "Fiona", "Andi"]; // bisa tipe data string / int
+				var kotak2 = ["Peter", "john", "Kintan"];
+				kotak.splice(2, 0, "Reza");
+				document.getElementById("wrap").innerHTML = kotak;
+			</script>
+		</body>
+</html>

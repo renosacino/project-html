@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title> do while loop </title>
+		<style>
+			#wrap{
+				background: Black;
+				color : white;
+				font-size: 25px;
+				}
+		</style>
+	</head>
+		<body>
+			<div id="wrap" > </div>
+			
+			<script>
+			//while (syarat){
+				// apa yang akan kita lakukan
+			//}
+			var i=0;
+			var text="";
+			do{
+				text += "<br> angka adalah" +i;
+				i++;
+			}
+					while (i < 5);
+			document.getElementById("wrap").innerHTML = text;
+			</script>
+		</body>
+</html>

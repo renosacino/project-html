@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Percabangan </title>
+		<style>
+			#wrap{
+				background: Black;
+				color : white;
+				font-size: 25px;
+				}
+		</style>
+	</head>
+		<body>
+			<div id="wrap" > </div>
+			
+			<script>
+			// if & else
+			// operator logika ==(sama dengan)  !=(tidak sama dengan)  > >=(lebih besar dari0  < <=
+			// && (dan) ||(atau)
+			// else if menambah suatu kondisi
+			var mahasiswa1 = 25000;
+			var mahasiswa2 = 1000;
+			var barang = 10000;
+				if(mahasiswa1 > barang ){
+				  if(mahasiswa1 > barang *2){
+				  document.getElementById("wrap").innerHTML = " Bisa Membeli 2 Barang";
+				} else{
+					document.getElementById("wrap").innerHTML ="Uang tidak ada yang cukup ";
+				}
+				}
+			</script>
+		</body>
+</html>
